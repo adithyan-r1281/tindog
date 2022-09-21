@@ -47,3 +47,11 @@ p{
     color:#8f8f8f ;
     font-family: "Ubuntu";
 }
+
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
