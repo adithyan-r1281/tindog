@@ -43,6 +43,12 @@ h3{
     font-family: 'Secular One', sans-serif;
 
 }
+h2{
+    font-family: 'Secular One', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;   
+    font-weight: bold;
+}
 p{
     color:#8f8f8f ;
     font-family: "Ubuntu";
@@ -54,4 +60,26 @@ p{
 }
 .icon:hover{
     color: #ff4c68;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+.testimonialimages{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 73px 50px ;
+}
+.carousel-item{
+    padding: 7% 15%;
+
 }
