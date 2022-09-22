@@ -13,7 +13,7 @@ body{
      color: #ffff
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 /* .navbar{
     padding:0 0 4.5rem;
@@ -30,9 +30,26 @@ body{
 .download-button{
     padding: 5% 3% 5% 0;
 }
+.titleimage{
+    position: absolute;
+    transform: rotate(20deg);
+    width: 18%;
+    right: 30%;
+}
+@media(max-width:1028px){
+
+    .titleimage{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
 
 #features{
     padding: 7% 15%;
+    position: relative;
+    /* z-index: 1; */
+    background-color: white;
 
 }
 .feature-box{
@@ -82,4 +99,34 @@ p{
 .carousel-item{
     padding: 7% 15%;
 
+}
+#pricing{
+    padding: 7% 8%;
+    text-align: center;
+    
+}
+.card-body{
+    /* margin-right: 5px; */
+    margin: 0.5rem;
+}
+.card-group{
+    padding-top: 3%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #ffff;
+    padding: 7% 5%;
+    font-size: 3rem;
+}
+.cta-button{
+    margin-top: 2%;
+}
+#footer{
+    text-align: center;
+    padding: 2% 5%;
+}
+.social{
+    margin: 5px 5px;
 }
